@@ -26,10 +26,6 @@
             "App\\": "app/"
         }
     },
-    "warmup": [
-        "php artisan config:cache",
-        "php artisan route:cache"
-    ],
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
